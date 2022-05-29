@@ -3,7 +3,7 @@
     <div class="card-title-block">
       <h3 class="card-title"><slot name="title"></slot></h3>
       <button class="card-btn">
-        <img src="../../assets/images/icon-ellipsis.svg" alt="Ellipsis" />
+        <img src="../../assets/icon-ellipsis.svg" alt="Ellipsis" />
       </button>
     </div>
     <p class="card-time-current"><slot name="current"></slot>hrs</p>

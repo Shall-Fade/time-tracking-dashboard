@@ -6,7 +6,7 @@
           <div class="card-profile">
             <img
               class="card-profile-img"
-              src="../../assets/images/image-jeremy.png"
+              src="../../assets/image-jeremy.png"
               alt="Profile image"
             />
             <div>
@@ -106,7 +106,7 @@ export default {
     // Get Current Link
     function getCurrentLink(cardTitle) {
       cardTitle = cardTitle.toLowerCase().replace(/ /g, "-");
-      let filename = `src/assets/images/icon-${cardTitle}.svg`;
+      let filename = `images/icon-${cardTitle}.svg`;
 
       return filename;
     }
