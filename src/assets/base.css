@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+/* Colors */
+:root {
+  /* Primary */
+  --c-blue: hsl(246, 80%, 60%);
+  --c-white: #fff;
+
+  /* Work */
+  --c-light-orange: hsl(15, 100%, 70%);
+  /* Play */
+  --c-soft-blue: hsl(195, 74%, 62%);
+  /* Study */
+  --c-light-red: hsl(348, 100%, 68%);
+  /* Exercise */
+  --c-lime-green: hsl(145, 58%, 55%);
+  /* Social */
+  --c-violet: hsl(264, 64%, 52%);
+  /* Self Care */
+  --c-soft-orange: hsl(43, 84%, 65%);
+
+  /* Neutral */
+  --c-very-dark-blue: hsl(226, 43%, 10%);
+  --c-dark-blue: hsl(235, 46%, 20%);
+  --c-bit-blue: hsl(236, 46%, 36%);
+  --c-desaturated-blue: hsl(235, 45%, 61%);
+  --c-pale-blue: hsl(236, 100%, 87%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--c-very-dark-blue);
+  color: var(--c-white);
+}
+
+/* Desktop Wrapper */
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 3px;
+}
